@@ -14,7 +14,7 @@ class MainMenu:
     def draw_main(self):
         self.screen.fill((10, 10, 30))
 
-        title_surface = self.font.render("Space Dash", True, (255, 255, 255))
+        title_surface = self.font.render("AstroRush", True, (255, 255, 255))
         title_rect = title_surface.get_rect(center=(self.width // 2, self.height // 4))
         self.screen.blit(title_surface, title_rect)
 
@@ -34,7 +34,7 @@ class MainMenu:
         self.screen.fill((10, 10, 30))
 
         about_lines = [
-            "Welcome to Space Dash!",
+            "Welcome to AstroRush!",
             "",
             "Press SPACE to control the spaceship.",
             "Avoid meteorites and earn points!",

@@ -7,7 +7,7 @@ class GameView:
         pygame.init()
         self.model = model
         self.screen = pygame.display.set_mode((model.width, model.height))
-        pygame.display.set_caption('Space Dash 🚀')
+        pygame.display.set_caption('AstroRush')
         self.font = pygame.font.SysFont(None, 36)
 
         self.spaceship_img = pygame.image.load('assets/spaceship.png').convert_alpha()
